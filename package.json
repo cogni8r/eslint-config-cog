@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-cog",
+  "version": "0.0.0-development",
+  "description": "ESLint configuration file for personal projects",
+  "repository": "git@github.com:cogni8r/eslint-config-cog.git",
+  "license": "MIT",
+  "author": "cogni8r",
+  "keywords": [
+    "husky",
+    "commitlint",
+    "githooks",
+    "gearsjs"
+  ]
+}
