@@ -136,6 +136,7 @@ module.exports = {
         ignoreEnums: true,
       },
     ],
+     "@typescript-eslint/no-restricted-imports": "off", // Nothing to restrict
     '@typescript-eslint/no-unused-expressions': 'off', // Typescript checks this.
     '@typescript-eslint/no-unused-vars': 'off', // Implemented in typescript.
     // it's better to have ability to organize code inside file by priority and not by define order.

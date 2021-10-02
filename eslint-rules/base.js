@@ -113,7 +113,7 @@ module.exports = {
     'no-dupe-class-members': 'off', // Typescript.
     'no-duplicate-imports': 'off', // Problems with Typescript `import type`.
     'no-new-symbol': 'off', // Typescript.
-    'no-restricted-exports': 'off', // Nothing to restrict.
+    'no-restricted-exports': 'off', // Typescript.
     'no-restricted-imports': 'off', // Nothing to restrict.
     'no-this-before-super': 'off', // Typescript.
     'no-useless-computed-key': 'off', // Useless.
