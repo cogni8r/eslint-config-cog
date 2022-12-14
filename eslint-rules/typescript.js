@@ -88,7 +88,7 @@ module.exports = {
     "@typescript-eslint/no-unused-vars-experimental": "off", // Implemented in typescript.
     "@typescript-eslint/no-var-requires": "off", // Conflicts with '@typescript-eslint/no-require-imports' rule.
     "@typescript-eslint/parameter-properties": [
-      true,
+      "error",
       {
         prefer: "parameter-property",
       },
