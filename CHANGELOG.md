@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.2.0](https://github.com/cogni8r/eslint-config-cog/compare/v1.1.1...v1.2.0) (2022-12-14)
+
+
+### Features
+
+* update rules ([5a1e96a](https://github.com/cogni8r/eslint-config-cog/commit/5a1e96a6a2d494f1f6931e42dae151444c7a0b15))
+
 ## [1.1.1](https://github.com/cogni8r/eslint-config-cog/compare/v1.1.0...v1.1.1) (2022-01-29)
 
 
