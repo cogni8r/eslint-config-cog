@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/cogni8r/eslint-config-cog/compare/v1.2.0...v1.2.1) (2022-12-14)
+
+
+### Bug Fixes
+
+* fix @typescript-eslint/parameter-properties ([399e5d6](https://github.com/cogni8r/eslint-config-cog/commit/399e5d6788d32f1e62bb4d0b7ffafd9948658de9))
+
 # [1.2.0](https://github.com/cogni8r/eslint-config-cog/compare/v1.1.1...v1.2.0) (2022-12-14)
 
 
