@@ -87,12 +87,7 @@ module.exports = {
     "@typescript-eslint/no-unnecessary-type-arguments": "off",
     "@typescript-eslint/no-unused-vars-experimental": "off", // Implemented in typescript.
     "@typescript-eslint/no-var-requires": "off", // Conflicts with '@typescript-eslint/no-require-imports' rule.
-    "@typescript-eslint/parameter-properties": [
-      "error",
-      {
-        prefer: "parameter-property",
-      },
-    ],
+    "@typescript-eslint/parameter-properties": "off", // Sometimes it's better to use parameter properties, sometimes it's not
     "@typescript-eslint/prefer-includes": "off", // Useless.
     "@typescript-eslint/prefer-namespace-keyword": "off", // Conflicts with 'no-namespace' rule.
     // it's not very convenient for DI and sometimes mutations are good.
@@ -103,8 +98,6 @@ module.exports = {
       "error",
       { allowNumber: true, allowBoolean: true },
     ],
-    // Sometimes it's better to use sort types manually. Some of them are more important than others.
-    "@typescript-eslint/sort-type-union-intersection-members": "off",
     "@typescript-eslint/typedef": [
       "error",
       {

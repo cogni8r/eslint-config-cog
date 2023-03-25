@@ -1,0 +1,16 @@
+{
+  "include": ["."],
+  "extends": "typescript-config-cog/tsconfig.json",
+  "ts-node": {
+    "moduleTypes": {
+      "jest.config.ts": "cjs"
+    }
+  },
+  "compilerOptions": {
+    "pretty": false,
+    "types": ["node", "jest"],
+    "noEmit": false,
+    "outDir": "dist",
+    "noImplicitOverride": true
+  }
+}

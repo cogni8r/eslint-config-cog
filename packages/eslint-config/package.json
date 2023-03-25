@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-core",
-  "version": "0.0.0-development",
+  "name": "eslint-config-cog",
+  "version": "1.2.1",
   "description": "ESLint configuration file for personal projects",
   "repository": "git@github.com:cogni8r/eslint-config-cog.git",
   "license": "MIT",
   "author": "cogni8r",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "node-app": "npm start --workspace=node-app"
-  }
+  "keywords": [
+    "husky",
+    "commitlint",
+    "githooks",
+    "gearsjs"
+  ]
 }
