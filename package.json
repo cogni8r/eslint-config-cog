@@ -5,10 +5,16 @@
   "repository": "git@github.com:cogni8r/eslint-config-cog.git",
   "license": "MIT",
   "author": "cogni8r",
+  "prettier": "prettier-config-cog",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "node-app": "npm start --workspace=node-app"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7",
+    "prettier-config-cog": "^1.1.1"
   }
 }
+

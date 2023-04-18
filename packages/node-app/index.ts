@@ -1,2 +1,3 @@
-var e = "";
-console.log("test");
+function test(e: unknown): void {
+  eval(e);
+}

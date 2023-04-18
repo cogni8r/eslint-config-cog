@@ -9,18 +9,12 @@
   },
   "author": "cogni8r",
   "license": "MIT",
+  "type": "module",
   "dependencies": {},
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
-    "eslint": "^8.36.0",
-    "eslint-config-cog": "1.2.1",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsdoc": "^40.1.0",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-config-cog": "2.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
-    "typescript-config-cog": "1.1.1"
+    "typescript-config-cog": "1.1.2"
   }
 }
