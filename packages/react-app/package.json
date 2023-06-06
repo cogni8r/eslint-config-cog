@@ -19,6 +19,6 @@
     "eslint-config-cog": "2.0.3",
     "typescript": "^4.9.3",
     "typescript-config-cog": "1.1.1",
-    "vite": "^4.2.0"
+    "vite": "^4.2.3"
   }
 }
